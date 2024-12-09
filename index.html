@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <title>ScaleSwap</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="background">
+    <div class="header">
+      <h1 class="heading">
+        Scale Swap
+      </h1>
+      <p>
+        Keep Temperature Simple.
+      </p>
+    </div>
+  
+    <form>
+      <input type="number" placeholder="Enter Your Temperature" id="temp" value="0"> <br>
+  
+      <input type="checkbox" id="toCelsius">
+      <label for="toCelsius">Fahrenheit To Celsius</label> <br>
+  
+      <input type="checkbox" id="toFahrenheit">
+      <label for="toFahrenheit">Celsius To Fahrenheit</label> <br>
+    </form>
+  
+    <button type="button" id="convert" onclick="answer()">Convert</button> <br>
+    <p id="conversion"></p>
+  </div>
+  
+  <script src="script.js"></script>
+  
+</body>
+  
+</html>
